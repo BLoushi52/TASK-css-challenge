@@ -1,0 +1,27 @@
+
+body {
+  background-image: linear-gradient(rgb(43, 29, 3), #000326);
+  background-repeat: no-repeat;
+  background-size: 100% 175%;
+}
+.movie-image {
+  margin: 50px;
+  width:400px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+}
+.movie-title {
+  font-family: Papyrus;
+  font-size: 40pt;
+  text-align: center;
+  color:white
+}
+.description {
+  margin-inline: 300px;
+  color:white;
+  font-size: 15pt;
+  text-align: center;
+  color:white
+}
