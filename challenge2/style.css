@@ -3,17 +3,22 @@ body {
 }
 
 .container {
-    display:flex;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .item {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     background-color: white;
     border-radius: 10px;
-    width: fit-content;
-    padding-inline: 60px;
+    width: 350px;
+    text-align: center;
+    /* padding-inline: 60px;
     padding-block: 20px;
-    margin-inline: auto;
+    margin-inline: auto; */
+    padding: 30px;
     box-shadow: 0px 0px 80px;
 }
 
@@ -23,11 +28,4 @@ body {
     margin-right: auto;
     height: 150px;
     border-radius: 100%;
-}
-h1 {
-    text-align: center;
-}
-.pika-discription {
-    text-align: center;
-    width:250px
 }
